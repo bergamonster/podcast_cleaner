@@ -25,7 +25,7 @@ EPISODES_DIR = Path("episodes")
 ANNOYING_DIR = Path("annoying_clips")
 RSS_FILE = Path("docs/podcast.xml")
 GITHUB_PAGES_URL = 'https://bergamonster.github.io/podcast_cleaner/'
-REPO_EPISODE_URL = "https://github.com/bergamonster/podcast_cleaner/blob/main/episodes/"
+REPO_EPISODE_URL = "https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/"
 
 CHECK_INTERVAL = 5 * 60  # 5 minutes
 
