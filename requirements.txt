@@ -55,6 +55,8 @@ pycparser==2.22
     # via cffi
 pydub==0.25.1
     # via -r requirements.in
+pyhumps==3.8.0
+    # via -r requirements.in
 python-dateutil==2.9.0.post0
     # via feedgen
 requests==2.32.4
