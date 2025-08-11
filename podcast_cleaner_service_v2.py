@@ -23,7 +23,7 @@ RSS_URL = "https://anchor.fm/s/f06a1be8/podcast/rss"
 DOWNLOAD_DIR = Path("downloads")
 EPISODES_DIR = Path("episodes")
 ANNOYING_DIR = Path("annoying_clips")
-RSS_FILE = Path("docs/clean_feed.xml")
+RSS_FILE = Path("docs/podcast.xml")
 GITHUB_PAGES_URL = 'https://bergamonster.github.io/podcast_cleaner/'
 
 CHECK_INTERVAL = 5 * 60  # 5 minutes
