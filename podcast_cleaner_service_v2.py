@@ -2,11 +2,11 @@ import feedparser
 import requests
 from pathlib import Path
 from pydub import AudioSegment
-from feedgen.feed import FeedGenerator
 import humps
 import re
 import os
-import datetime
+import glob
+import time
 import subprocess
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
@@ -44,6 +44,9 @@ PODCAST_DESCRIPTION = 'Cleaned version of Rundown'
 PODCAST_LANGUAGE = 'en-us'
 PODCAST_AUTHOR = 'Bergamonster'
 
+def convert_title(title):
+    return humps.decamelize(re.sub(r'[^a-zA-Z0-9\s]', '', title))
+
 # -------------------
 # DOWNLOAD NEW EPISODES
 # -------------------
@@ -51,12 +54,12 @@ def download_new_episode(feed):
     DOWNLOAD_DIR.mkdir(exist_ok=True)
     new_files = []
 
-    for entry in feed.entries[:2]:
+    for entry in feed.entries[:5]:
         if not entry.enclosures:
             continue
         title = entry.title
         audio_url = entry.enclosures[0].href
-        stripped_filename = humps.decamelize(re.sub(r'[^a-zA-Z0-9\s]', '', title))
+        stripped_filename = convert_title(title)
         filename = DOWNLOAD_DIR / Path(f"{stripped_filename}.mp3")
 
         if not filename.exists():
@@ -65,7 +68,7 @@ def download_new_episode(feed):
             with open(filename, 'wb') as f:
                 for chunk in r.iter_content(1024):
                     f.write(chunk)
-            new_files.append({"filename":filename, "title":title})
+            new_files.append(filename)
 
     return new_files
 
@@ -117,10 +120,8 @@ def remove_segments(audio_path, segments, output_path):
     cleaned = sum(keep)
     cleaned.export(output_path, format="mp3")
 
-def process_episode(file):
+def process_episode(episode_path):
     # Load episode
-    episode_path = file["filename"]
-    title = file["title"]
     episode_audio = load_audio(episode_path)
     episode_spec = mel_spectrogram(episode_audio)
     output_path = EPISODES_DIR / episode_path.name
@@ -145,7 +146,6 @@ def process_episode(file):
 
     remove_segments(episode_path, merged, output_path)
     print(f"Cleaned episode saved to {output_path}")
-    return {str(output_path):title}
 
 # -------------------
 # UPDATE CLEAN FEED
@@ -157,7 +157,7 @@ def prettify_xml(elem):
     reparsed = minidom.parseString(rough_string)
     return reparsed.toprettyxml(indent="  ")
 
-def generate_rss(output_files, old_feed):
+def generate_rss(old_feed):
     # Root RSS element
     rss = Element('rss', version='2.0')
     channel = SubElement(rss, 'channel')
@@ -179,14 +179,12 @@ def generate_rss(output_files, old_feed):
     for episode_file in episodes:
         ep_path = os.path.join(EPISODES_DIR, episode_file)
         ep_url = f"{REPO_EPISODE_URL}{episode_file}"
-        # ep_title = os.path.splitext(episode_file)[0]
-        ep_title = output_files[ep_path]
 
         for entry in old_feed.entries[:10]:
-            if f"{entry.title}.mp3" == episode_file:
-                ep_pub_date = entry.pubDate
+            if f"{convert_title(entry.title)}.mp3" == episode_file:
+                ep_pub_date = entry.published
+                ep_title = entry.title
 
-        ep_pub_date = datetime.datetime.fromtimestamp(os.path.getmtime(ep_path)).strftime("%a, %d %b %Y %H:%M:%S %z")
         ep_length = os.path.getsize(ep_path)
         
         item = SubElement(channel, 'item')
@@ -219,6 +217,20 @@ def git_commit_and_push():
             else:
                 raise
 
+
+def keep_latest_files(folder_path, keep=5):
+    # Get list of files with their creation times
+    files = glob.glob(os.path.join(folder_path, "*"))
+    files.sort(key=os.path.getctime, reverse=True)
+
+    # Files to delete
+    for f in files[keep:]:
+        try:
+            os.remove(f)
+            print(f"Deleted: {f}")
+        except Exception as e:
+            print(f"Could not delete {f}: {e}")
+
 # -------------------
 # MAIN LOOP
 # -------------------
@@ -231,15 +243,15 @@ if __name__ == "__main__":
         if new_files:
             output_files = {}
             for file in new_files:
-                output_files.update(process_episode(file))
-            generate_rss(output_files, feed)
-            # git_commit_and_push()
-            # update_clean_feed(episodes)
-        #     print("[DONE] New episodes processed & feed updated.")
-        # else:
-        #     print("[CHECK] No new episodes.")
-        # 
-        # 
-        # print(f"[WAIT] Sleeping for {CHECK_INTERVAL} seconds...")
-        # time.sleep(CHECK_INTERVAL)
+                process_episode(file)
+            keep_latest_files(DOWNLOAD_DIR)
+            keep_latest_files(EPISODES_DIR)
+            generate_rss(feed)
+            git_commit_and_push()
+            print("[DONE] New episodes processed & feed updated.")
+        else:
+            print("[CHECK] No new episodes.")
+        
+        print(f"[WAIT] Sleeping for {CHECK_INTERVAL} seconds...")
+        time.sleep(CHECK_INTERVAL)
         break
