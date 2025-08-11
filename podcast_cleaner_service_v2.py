@@ -25,6 +25,7 @@ EPISODES_DIR = Path("episodes")
 ANNOYING_DIR = Path("annoying_clips")
 RSS_FILE = Path("docs/podcast.xml")
 GITHUB_PAGES_URL = 'https://bergamonster.github.io/podcast_cleaner/'
+REPO_EPISODE_URL = "https://github.com/bergamonster/podcast_cleaner/blob/main/episodes/"
 
 CHECK_INTERVAL = 5 * 60  # 5 minutes
 
@@ -193,7 +194,7 @@ def generate_rss():
     
     for episode_file in episodes:
         ep_path = os.path.join(EPISODES_DIR, episode_file)
-        ep_url = f"{GITHUB_PAGES_URL}episodes/{episode_file}"
+        ep_url = f"{REPO_EPISODE_URL}{episode_file}"
         ep_title = os.path.splitext(episode_file)[0]
         ep_pub_date = datetime.datetime.fromtimestamp(os.path.getmtime(ep_path)).strftime("%a, %d %b %Y %H:%M:%S %z")
         ep_length = os.path.getsize(ep_path)
