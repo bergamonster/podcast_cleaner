@@ -254,4 +254,4 @@ if __name__ == "__main__":
         
         print(f"[WAIT] Sleeping for {CHECK_INTERVAL} seconds...")
         time.sleep(CHECK_INTERVAL)
-        break
+        
