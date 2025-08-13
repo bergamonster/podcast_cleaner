@@ -28,7 +28,7 @@ RSS_FILE = Path("docs/podcast.xml")
 GITHUB_PAGES_URL = 'https://bergamonster.github.io/podcast_cleaner/'
 REPO_EPISODE_URL = "https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/"
 
-CHECK_INTERVAL = 5 * 60  # 5 minutes
+CHECK_INTERVAL = 15 * 60  # 15 minutes
 
 SAMPLE_RATE = 16000
 N_MELS = 64
@@ -201,7 +201,7 @@ def generate_rss(old_feed):
 def git_commit_and_push():
     # Run git commands in repo folder
     commands = [
-        ['git', 'add', '.'],
+        ['git', 'add', '-A'],
         ['git', 'commit', '-m', 'Update podcast RSS feed and episodes'],
         ['git', 'push']
     ]
