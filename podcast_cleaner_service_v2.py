@@ -15,6 +15,7 @@ import librosa
 import numpy as np
 import scipy.signal
 from pydub import AudioSegment
+import datetime
 
 # -------------------
 # CONFIG
@@ -237,7 +238,7 @@ def keep_latest_files(folder_path, keep=5):
 if __name__ == "__main__":
 
     while True:
-        print("[CHECK] Checking for new episodes...")
+        print(f"[CHECK] {datetime.datetime.now()} - Checking for new episodes...")
         feed = feedparser.parse(RSS_URL)
         new_files = download_new_episode(feed)
         if new_files:
