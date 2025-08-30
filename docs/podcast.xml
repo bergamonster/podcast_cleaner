@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Nike Announces Layoffs, Affirm Posts First-Ever Profit</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nike_announces_layoffs_affirm_posts_first_ever_profit.mp3" length="9396392" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nike_announces_layoffs_affirm_posts_first_ever_profit.mp3</guid>
+      <pubDate>Fri, 29 Aug 2025 15:01:32 GMT</pubDate>
+    </item>
+    <item>
       <title>Deep Dive: Wellness Check on Apple (Hardware, AI, China)</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_wellness_checkon_apple_hardware_ai_china.mp3" length="14481701" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_wellness_checkon_apple_hardware_ai_china.mp3</guid>
@@ -29,12 +35,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/cracker_barrel_brings_back_old_logo_apple_sends_invitesfori_phone_event.mp3" length="9357104" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/cracker_barrel_brings_back_old_logo_apple_sends_invitesfori_phone_event.mp3</guid>
       <pubDate>Wed, 27 Aug 2025 14:47:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia Tops Earnings Despite Data Center Miss, Snowflake Shares Surge on AI Strength</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nvidia_tops_earnings_despite_data_center_miss_snowflake_shares_surgeon_ai_strength.mp3" length="9304441" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nvidia_tops_earnings_despite_data_center_miss_snowflake_shares_surgeon_ai_strength.mp3</guid>
-      <pubDate>Thu, 28 Aug 2025 15:53:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
