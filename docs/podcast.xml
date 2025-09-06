@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Deep Dive: Can Klarna's IPO Live Up to the Hype?</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_can_klarnas_ipo_live_uptothe_hype.mp3" length="13205254" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_can_klarnas_ipo_live_uptothe_hype.mp3</guid>
+      <pubDate>Sat, 06 Sep 2025 15:31:44 GMT</pubDate>
+    </item>
+    <item>
       <title>Google Dodges Chrome Sale in Antitrust Win, Anthropic Raises $13B at $183B Valuation</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/google_dodges_chrome_salein_antitrust_win_anthropic_raises13_bat183_b_valuation.mp3" length="9419798" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/google_dodges_chrome_salein_antitrust_win_anthropic_raises13_bat183_b_valuation.mp3</guid>
@@ -29,12 +35,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/figma_flunks_first_earnings_test_apple_plans_ai_powered_search_engine.mp3" length="9426067" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/figma_flunks_first_earnings_test_apple_plans_ai_powered_search_engine.mp3</guid>
       <pubDate>Thu, 04 Sep 2025 14:24:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Broadcom Inks $10B Deal with OpenAI, Musk Eyes $1T Pay Package</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/broadcom_inks10_b_dealwith_open_ai_musk_eyes1_t_pay_package.mp3" length="9464519" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/broadcom_inks10_b_dealwith_open_ai_musk_eyes1_t_pay_package.mp3</guid>
-      <pubDate>Fri, 05 Sep 2025 14:12:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
