@@ -34,7 +34,7 @@ CHECK_INTERVAL = 15 * 60  # 15 minutes
 SAMPLE_RATE = 16000
 N_MELS = 64
 HOP_LENGTH = 512
-THRESHOLD = 0.75  # similarity threshold, tweak if too strict/loose
+THRESHOLD = 0.65  # similarity threshold, tweak if too strict/loose
 
 
 
@@ -252,7 +252,6 @@ if __name__ == "__main__":
             print("[DONE] New episodes processed & feed updated.")
         else:
             print("[CHECK] No new episodes.")
-        
         print(f"[WAIT] Sleeping for {CHECK_INTERVAL} seconds...")
         time.sleep(CHECK_INTERVAL)
         
