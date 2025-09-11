@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Deep Dive: Can Klarna's IPO Live Up to the Hype?</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_can_klarnas_ipo_live_uptothe_hype.mp3" length="13159696" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_can_klarnas_ipo_live_uptothe_hype.mp3</guid>
+      <pubDate>Sat, 06 Sep 2025 15:31:44 GMT</pubDate>
+    </item>
+    <item>
       <title>Microsoft Enters $17.4B AI Deal with Nebius, StubHub Resumes IPO Plans</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/microsoft_enters174_bai_dealwith_nebius_stub_hub_resumes_ipo_plans.mp3" length="9841101" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/microsoft_enters174_bai_dealwith_nebius_stub_hub_resumes_ipo_plans.mp3</guid>
@@ -29,12 +35,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/oracle_stockon_pacefor_best_day_since1992_klarna_setto_make_ipo_debut.mp3" length="9259301" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/oracle_stockon_pacefor_best_day_since1992_klarna_setto_make_ipo_debut.mp3</guid>
       <pubDate>Wed, 10 Sep 2025 14:58:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Broadcom Inks $10B Deal with OpenAI, Musk Eyes $1T Pay Package</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/broadcom_inks10_b_dealwith_open_ai_musk_eyes1_t_pay_package.mp3" length="9354596" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/broadcom_inks10_b_dealwith_open_ai_musk_eyes1_t_pay_package.mp3</guid>
-      <pubDate>Fri, 05 Sep 2025 14:12:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
