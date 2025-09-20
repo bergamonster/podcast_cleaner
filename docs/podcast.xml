@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Deep Dive: Did Meta Just Have its iPhone Moment?</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_did_meta_just_haveitsi_phone_moment.mp3" length="11474903" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_did_meta_just_haveitsi_phone_moment.mp3</guid>
+      <pubDate>Sat, 20 Sep 2025 18:41:59 GMT</pubDate>
+    </item>
+    <item>
       <title>Meta to Unveil New AI Smart Glasses, Oracle's TikTok Buyout Speculation Grows</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/metato_unveil_new_ai_smart_glasses_oracles_tik_tok_buyout_speculation_grows.mp3" length="9291902" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/metato_unveil_new_ai_smart_glasses_oracles_tik_tok_buyout_speculation_grows.mp3</guid>
@@ -29,12 +35,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/musk_buys1_bin_tesla_stock_china_accuses_nvidiaof_breaking_anti_monopoly_law.mp3" length="9350416" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/musk_buys1_bin_tesla_stock_china_accuses_nvidiaof_breaking_anti_monopoly_law.mp3</guid>
       <pubDate>Mon, 15 Sep 2025 14:37:25 GMT</pubDate>
-    </item>
-    <item>
-      <title>SEC Explores Removing Quarterly Reporting, Elon Musk Lays out Roadmap for xAI</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/sec_explores_removing_quarterly_reporting_elon_musk_laysout_roadmapforx_ai.mp3" length="9209564" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/sec_explores_removing_quarterly_reporting_elon_musk_laysout_roadmapforx_ai.mp3</guid>
-      <pubDate>Fri, 19 Sep 2025 14:39:58 GMT</pubDate>
     </item>
   </channel>
 </rss>
