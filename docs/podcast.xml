@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>The Fragile State of the AI Economy | Kyla Scanlon</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/the_fragile_stateofthe_ai_economy_kyla_scanlon.mp3" length="26521434" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/the_fragile_stateofthe_ai_economy_kyla_scanlon.mp3</guid>
+      <pubDate>Sun, 21 Sep 2025 15:05:04 GMT</pubDate>
+    </item>
+    <item>
       <title>SEC Explores Removing Quarterly Reporting, Elon Musk Lays out Roadmap for xAI</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/sec_explores_removing_quarterly_reporting_elon_musk_laysout_roadmapforx_ai.mp3" length="9208310" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/sec_explores_removing_quarterly_reporting_elon_musk_laysout_roadmapforx_ai.mp3</guid>
@@ -29,12 +35,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/trump_pushes_back_enforcementof_tik_tok_ban_stub_hubto_make_ipo_debut.mp3" length="10270345" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/trump_pushes_back_enforcementof_tik_tok_ban_stub_hubto_make_ipo_debut.mp3</guid>
       <pubDate>Wed, 17 Sep 2025 13:58:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Nvidia Invests $5B Into Intel, Lyft Partners with Waymo for Robotaxis in Nashville</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nvidia_invests5_b_into_intel_lyft_partnerswith_waymofor_robotaxisin_nashville.mp3" length="9666812" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nvidia_invests5_b_into_intel_lyft_partnerswith_waymofor_robotaxisin_nashville.mp3</guid>
-      <pubDate>Thu, 18 Sep 2025 14:59:46 GMT</pubDate>
     </item>
   </channel>
 </rss>
