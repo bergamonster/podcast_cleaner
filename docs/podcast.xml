@@ -7,10 +7,16 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>The Fragile State of the AI Economy | Kyla Scanlon</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/the_fragile_stateofthe_ai_economy_kyla_scanlon.mp3" length="26710351" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/the_fragile_stateofthe_ai_economy_kyla_scanlon.mp3</guid>
+      <pubDate>Sun, 21 Sep 2025 15:05:04 GMT</pubDate>
+    </item>
+    <item>
       <title>Intel Seeks Investment from Apple, Starbucks Cuts 900 Corporate Staff</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/intel_seeks_investmentfrom_apple_starbucks_cuts900_corporate_staff.mp3" length="8759004" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/intel_seeks_investmentfrom_apple_starbucks_cuts900_corporate_staff.mp3</guid>
-      <pubDate>Thu, 25 Sep 2025 14:31:11 GMT</pubDate>
+      <pubDate>Thu, 25 Sep 2025 14:47:49 GMT</pubDate>
     </item>
     <item>
       <title>Deep Dive: Did Meta Just Have its iPhone Moment?</title>
@@ -29,12 +35,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nvidiato_invest100_binto_open_ai_disney_revives_jimmy_kimmels_late_night_show.mp3" length="9655945" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nvidiato_invest100_binto_open_ai_disney_revives_jimmy_kimmels_late_night_show.mp3</guid>
       <pubDate>Tue, 23 Sep 2025 14:43:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir Partners with Boeing, Alibaba Soars on AI Announcements</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/palantir_partnerswith_boeing_alibaba_soarson_ai_announcements.mp3" length="9199533" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/palantir_partnerswith_boeing_alibaba_soarson_ai_announcements.mp3</guid>
-      <pubDate>Wed, 24 Sep 2025 14:00:34 GMT</pubDate>
     </item>
   </channel>
 </rss>
