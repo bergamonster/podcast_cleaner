@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Deep Dive: Is Nvidia Funding a Data Center Collapse?</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_is_nvidia_fundinga_data_center_collapse.mp3" length="11009714" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_is_nvidia_fundinga_data_center_collapse.mp3</guid>
+      <pubDate>Sat, 27 Sep 2025 14:28:31 GMT</pubDate>
+    </item>
+    <item>
       <title>Intel Seeks Investment from Apple, Starbucks Cuts 900 Corporate Staff</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/intel_seeks_investmentfrom_apple_starbucks_cuts900_corporate_staff.mp3" length="9243001" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/intel_seeks_investmentfrom_apple_starbucks_cuts900_corporate_staff.mp3</guid>
@@ -29,12 +35,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nvidiato_invest100_binto_open_ai_disney_revives_jimmy_kimmels_late_night_show.mp3" length="9610387" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/nvidiato_invest100_binto_open_ai_disney_revives_jimmy_kimmels_late_night_show.mp3</guid>
       <pubDate>Tue, 23 Sep 2025 14:43:44 GMT</pubDate>
-    </item>
-    <item>
-      <title>Palantir Partners with Boeing, Alibaba Soars on AI Announcements</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/palantir_partnerswith_boeing_alibaba_soarson_ai_announcements.mp3" length="9741626" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/palantir_partnerswith_boeing_alibaba_soarson_ai_announcements.mp3</guid>
-      <pubDate>Wed, 24 Sep 2025 14:00:34 GMT</pubDate>
     </item>
   </channel>
 </rss>
