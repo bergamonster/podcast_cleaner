@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Intel Seeks Investment from Apple, Starbucks Cuts 900 Corporate Staff</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/intel_seeks_investmentfrom_apple_starbucks_cuts900_corporate_staff.mp3" length="9725326" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/intel_seeks_investmentfrom_apple_starbucks_cuts900_corporate_staff.mp3</guid>
+      <pubDate>Thu, 25 Sep 2025 14:47:49 GMT</pubDate>
+    </item>
+    <item>
       <title>Trump Enacts New Round of Tariffs, Amazon Settles FTC Suit for $2.5B</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/trump_enacts_new_roundof_tariffs_amazon_settles_ftc_suitfor25_b.mp3" length="9726998" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/trump_enacts_new_roundof_tariffs_amazon_settles_ftc_suitfor25_b.mp3</guid>
@@ -29,12 +35,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/palantir_partnerswith_boeing_alibaba_soarson_ai_announcements.mp3" length="10165019" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/palantir_partnerswith_boeing_alibaba_soarson_ai_announcements.mp3</guid>
       <pubDate>Wed, 24 Sep 2025 14:00:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Deep Dive: Is Nvidia Funding a Data Center Collapse?</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_is_nvidia_fundinga_data_center_collapse.mp3" length="11009714" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_is_nvidia_fundinga_data_center_collapse.mp3</guid>
-      <pubDate>Sat, 27 Sep 2025 14:28:31 GMT</pubDate>
     </item>
   </channel>
 </rss>
