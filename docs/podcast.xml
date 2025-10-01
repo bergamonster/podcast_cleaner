@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Deep Dive: Is Nvidia Funding a Data Center Collapse?</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_is_nvidia_fundinga_data_center_collapse.mp3" length="11009714" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_is_nvidia_fundinga_data_center_collapse.mp3</guid>
+      <pubDate>Sat, 27 Sep 2025 14:28:31 GMT</pubDate>
+    </item>
+    <item>
       <title>OpenAI Partners with Shopify for &quot;Instant Checkout,&quot; Spotify CEO Steps Down</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/open_ai_partnerswith_shopifyfor_instant_checkout_spotify_ceo_steps_down.mp3" length="9777989" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/open_ai_partnerswith_shopifyfor_instant_checkout_spotify_ceo_steps_down.mp3</guid>
@@ -28,12 +34,6 @@
       <title>Gold Hits Record High, Electronic Arts to Go Private at $55B Valuation</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/gold_hits_record_high_electronic_artsto_go_privateat55_b_valuation.mp3" length="9705264" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/gold_hits_record_high_electronic_artsto_go_privateat55_b_valuation.mp3</guid>
-      <pubDate>Mon, 29 Sep 2025 14:28:09 GMT</pubDate>
-    </item>
-    <item>
-      <title>Gold Hits Record High, Electronic Arts to Go Private at $55B Valuation</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/gold_prices_reach_new_record_electronic_artsto_go_privateat55_b.mp3" length="9222939" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/gold_prices_reach_new_record_electronic_artsto_go_privateat55_b.mp3</guid>
       <pubDate>Mon, 29 Sep 2025 14:28:09 GMT</pubDate>
     </item>
   </channel>
