@@ -30,6 +30,7 @@ GITHUB_PAGES_URL = 'https://bergamonster.github.io/podcast_cleaner/'
 REPO_EPISODE_URL = "https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/"
 
 CHECK_INTERVAL = 15 * 60  # 15 minutes
+KEEP = 3
 
 SAMPLE_RATE = 16000
 N_MELS = 64
@@ -55,7 +56,7 @@ def download_new_episode(feed):
     DOWNLOAD_DIR.mkdir(exist_ok=True)
     new_files = []
 
-    for entry in feed.entries[:5]:
+    for entry in feed.entries[:KEEP]:
         if not entry.enclosures:
             continue
         title = entry.title
@@ -146,6 +147,9 @@ def process_episode(episode_path):
             merged[-1][1] = max(merged[-1][1], end)
 
     remove_segments(episode_path, merged, output_path)
+    # replace old episode path with empty file to save space
+    subprocess.run(["rm", episode_path], check=True)
+    subprocess.run(["touch", episode_path], check=True)
     print(f"Cleaned episode saved to {output_path}")
 
 # -------------------
@@ -219,13 +223,13 @@ def git_commit_and_push():
                 raise
 
 
-def keep_latest_files(folder_path, keep=5):
+def keep_latest_files(folder_path):
     # Get list of files with their creation times
     files = glob.glob(os.path.join(folder_path, "*"))
     files.sort(key=os.path.getctime, reverse=True)
 
     # Files to delete
-    for f in files[keep:]:
+    for f in files[KEEP:]:
         try:
             os.remove(f)
             print(f"Deleted: {f}")
