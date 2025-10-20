@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Deep Dive: Can AMD Beat Nvidia at Its Own Game?</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_can_amd_beat_nvidiaat_its_own_game.mp3" length="11136774" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_can_amd_beat_nvidiaat_its_own_game.mp3</guid>
+      <pubDate>Sat, 18 Oct 2025 16:14:45 GMT</pubDate>
+    </item>
+    <item>
       <title>iPhone 17 Sales Revive Apple's Growth, Gucci Owner Sells Beauty Unit for $4.7B</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/i_phone17_sales_revive_apples_growth_gucci_owner_sells_beauty_unitfor47_b.mp3" length="9156483" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/i_phone17_sales_revive_apples_growth_gucci_owner_sells_beauty_unitfor47_b.mp3</guid>
@@ -17,12 +23,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/regional_bank_issues_leadto_market_selloff_micron_exits_data_center_businessin_china.mp3" length="9083758" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/regional_bank_issues_leadto_market_selloff_micron_exits_data_center_businessin_china.mp3</guid>
       <pubDate>Fri, 17 Oct 2025 14:45:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>Figma CFO on OpenAI Integration, AI Monetization, and Global Growth Catalysts</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/figma_cf_oon_open_ai_integration_ai_monetizationand_global_growth_catalysts.mp3" length="30142632" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/figma_cf_oon_open_ai_integration_ai_monetizationand_global_growth_catalysts.mp3</guid>
-      <pubDate>Sun, 19 Oct 2025 16:10:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
