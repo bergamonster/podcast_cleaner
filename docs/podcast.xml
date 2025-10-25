@@ -7,6 +7,12 @@
     <language>en-us</language>
     <managingEditor>Bergamonster</managingEditor>
     <item>
+      <title>Intel Returns to Profitability, Oracle Plans $38B Debt Deal for Data Centers</title>
+      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/intel_returnsto_profitability_oracle_plans38_b_debt_dealfor_data_centers.mp3" length="9880807" type="audio/mpeg"/>
+      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/intel_returnsto_profitability_oracle_plans38_b_debt_dealfor_data_centers.mp3</guid>
+      <pubDate>Fri, 24 Oct 2025 15:04:27 GMT</pubDate>
+    </item>
+    <item>
       <title>Deep Dive: Inside Trump’s Red-Hot Investment Portfolio</title>
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_inside_trumps_red_hot_investment_portfolio.mp3" length="9589489" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/deep_dive_inside_trumps_red_hot_investment_portfolio.mp3</guid>
@@ -17,12 +23,6 @@
       <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/netflix_posts_first_sales_missin_two_years_novo_nordisk_fires_entire_board.mp3" length="9770047" type="audio/mpeg"/>
       <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/netflix_posts_first_sales_missin_two_years_novo_nordisk_fires_entire_board.mp3</guid>
       <pubDate>Wed, 22 Oct 2025 14:59:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tesla Earnings Fall Short, Trump Considers Investing in Quantum Computing</title>
-      <enclosure url="https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/tesla_earnings_fall_short_trump_considers_investingin_quantum_computing.mp3" length="9210400" type="audio/mpeg"/>
-      <guid>https://raw.githubusercontent.com/bergamonster/podcast_cleaner/refs/heads/main/episodes/tesla_earnings_fall_short_trump_considers_investingin_quantum_computing.mp3</guid>
-      <pubDate>Thu, 23 Oct 2025 15:20:35 GMT</pubDate>
     </item>
   </channel>
 </rss>
