@@ -11,6 +11,7 @@ import subprocess
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
 
+os.environ['NUMBA_CACHE_DIR'] = 'numba'
 import librosa
 import numpy as np
 import scipy.signal
